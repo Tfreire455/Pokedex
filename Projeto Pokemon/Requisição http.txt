@@ -1,0 +1,27 @@
+URL: https://pokeapi.co/api/v2/pokemon
+       ${IP = endereço}/${path = caminho de identificação do recurso}
+
+    IP: https://pokeapi.co
+    porta: https://127.0.0:3000 (Exemplo)
+
+    path: api/v2/pokemon
+
+    tipo de solicitação
+    Request Method: GET | POST | PUT | DELETE | PATH
+    
+    GET: O servidor reconhece que eu quero buscar o recurso
+
+    POST: Inserir algum recurso
+
+    PUT: Atualizar algum recurso
+
+    DELETE: Deletar algum recurso
+
+    O método serve para dizer que queremos fazer com o recurso
+
+
+    Query String:
+    Nos retorna como um filtro algum recurso
+    É uma estrutura chave-valor
+                                     /////////////
+    https://pokeapi.co/api/v2/pokemon?type=grass
