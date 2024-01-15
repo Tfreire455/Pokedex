@@ -211,15 +211,20 @@ html {
         margin: 0 auto;
     }
 
-    .pokemons {
+    .pokemon {
+        padding: 10%;
+        margin: 5%;
+    }
 
+    .pokemons {
+        padding: 10%;
         margin: 0 auto;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         width: 1440px;
         align-items: center;
     }
 
     .pokemons:last-child {
-        grid-column: 2;
+        grid-column: 1;
     }
 }
